@@ -1,0 +1,11 @@
+.card-tag-learning {
+    background: var(--primary-yellow);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    font-family: var(--default-font);
+    font-weight: 800;
+}

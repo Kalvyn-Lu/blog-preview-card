@@ -1,0 +1,20 @@
+.container {
+    font-family: var(--default-font);
+}
+
+.container > h1 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.container > p {
+    font-size: 16px;
+    color: var(--neutral-grey);
+    font-weight: 400;
+}
+
+.container > h3 {
+    font-size: 14px;
+    color: var(--neutral-black);
+    font-weight: 600;
+}
