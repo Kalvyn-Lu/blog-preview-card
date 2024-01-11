@@ -5,6 +5,8 @@ import { CardTagEnum, CardTags } from './components/CardTags';
 import { CardDate } from './components/CardDate';
 import { CardTypography } from './components/CardTypography';
 import { CardAvatar } from './components/CardAvatar';
+import Link from 'next/link';
+import { CardTitle } from './components/CardTitle';
 
 export default function Home() {
   return (
@@ -15,16 +17,16 @@ export default function Home() {
           alt=""
           width="300"
           height="200"
-          style={{objectFit: 'cover'}}
+          style={{ objectFit: 'cover' }}
           className={styles.rounded}
         />
-        <div style={{marginTop: 20}}>
-          <CardTags tags={[CardTagEnum.LEARNING]}/>
+        <div style={{ marginTop: 20 }}>
+          <CardTags tags={[CardTagEnum.LEARNING]} />
         </div>
-        <CardTypography><h3><CardDate prefix={'Published '} date={new Date()}/></h3></CardTypography>
-        <CardTypography><h1>HTML & CSS Foundations</h1></CardTypography>
+        <CardTypography><h3><CardDate prefix={'Published '} date={new Date()} /></h3></CardTypography>
+        <CardTitle href="#" text="HTML & CSS Foundations"/>
         <CardTypography><p>These languages are the backbone of every website, defining structure, content, and presentation</p></CardTypography>
-        <CardAvatar imageSrc="/image-avatar.webp" name="Greg Hooper"/>
+        <CardAvatar imageSrc="/image-avatar.webp" name="Greg Hooper" />
       </Card>
     </main>
   )
