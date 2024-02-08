@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://faq-accordion-omega-five.vercel.app/
+- Live Site URL: [https://faq-accordion-omega-five.vercel.app/](https://blog-preview-card-nine-theta.vercel.app/)
 
 ## My process
 
